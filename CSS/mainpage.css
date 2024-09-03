@@ -16,15 +16,29 @@ body {
     align-items: center;
     justify-content: center;
     gap: 50px;
+    padding-bottom: 15%;
 }
 
 .content-flex-container img {
     height: 500px;
-    width: 500px;
+    width: 500px
 }
 
-.content-flex-container spacer {
-    width: 50px;
+
+
+.content-flex-container h1 {
+    color: black;
+    align-items: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-flex-container p {
+    color: black;
+    align-items: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .header img
@@ -36,9 +50,26 @@ body {
 
     }
 
-.welcome {
+.welcome-flex-container {
+  padding: 10px;
+}
+
+.welcome h1 {
     color: black;
     padding-bottom: 20px;
-    align-items: center
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.welcome h3 {
+    color: black;
+    padding-bottom: 20px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
